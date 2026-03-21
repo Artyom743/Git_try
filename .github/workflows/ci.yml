@@ -6,5 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "✅ Код отправлен в репозиторий!"
-      - run: echo "📦 Проверяем: ${{ github.repository }}"
-      - run: echo "🌿 Ветка: ${{ github.ref_name }}"
+
